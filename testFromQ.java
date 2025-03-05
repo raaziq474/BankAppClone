@@ -3,6 +3,18 @@
 
 class testFromQ{
 
+    String name;
+
+    public void testFromQ(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+
+
     public static void main(String[] args){
 
         System.out.println("Hello world!");
